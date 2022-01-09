@@ -1,4 +1,7 @@
-#Devs:Muhammed Hassan,Muhammed Galal Qassas, Kareem Ahmed Abdelfatah
+#Devs:
+#Muhammed Hassan
+#Muhammed Galal Qassas
+#Kareem Ahmed Abdelfatah
 #submitted to : Dr.Hatem
 
 import random
