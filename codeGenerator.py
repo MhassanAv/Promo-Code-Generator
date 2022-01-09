@@ -17,6 +17,7 @@ exDate = datetime.datetime.today()+datetime.timedelta(days=365*2)
 
 while True:
     numCo = int(input ("please enter the number of codes you wish to generate \n"))
+    val = input ("please enter the value 10,20,50 or 100 EGP\n")
     def makePromoteCode(count):
         promotecode=""
         for i in range(count):
@@ -29,7 +30,8 @@ while True:
         prom={
             "code":final[:-1],
             "state":"valid",
-            "expire":exDate.strftime("%d/%m/%Y")
+            "expire":exDate.strftime("%d/%m/%Y"),
+            "value":val+"EGP"
         }
         database.append(prom)
 
